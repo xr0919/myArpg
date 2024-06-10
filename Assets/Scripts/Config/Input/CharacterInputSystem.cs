@@ -8,7 +8,6 @@ public class CharacterInputSystem : MonoBehaviour
 {
     private InputController _inputController;
 
-
     //Key Setting
     public Vector2 playerMovement
     {
@@ -49,10 +48,6 @@ public class CharacterInputSystem : MonoBehaviour
         get => _inputController.PlayerInput.Crouch.triggered;
     }
 
-    
-    
-    
-    
     //内部函数
     private void Awake()
     {
@@ -69,7 +64,4 @@ public class CharacterInputSystem : MonoBehaviour
     {
         _inputController.Disable();
     }
-    
-
-
 }

@@ -12,15 +12,14 @@ namespace UGG.Combat
         protected CharacterInputSystem _characterInputSystem;
         protected CharacterMovementBase _characterMovementBase;
         protected AudioSource _audioSource;
-        
-        
+
         //aniamtionID
         protected int lAtkID = Animator.StringToHash("LAtk");
         protected int rAtkID = Animator.StringToHash("RAtk");
-        protected int defenID = Animator.StringToHash("Defen");
+        protected int defenID = Animator.StringToHash("Parry");
         protected int animationMoveID = Animator.StringToHash("AnimationMove");
-        protected int sWeaponID = Animator.StringToHash("SWeapon");
-        
+        protected int secondaryWeaponID = Animator.StringToHash("SecondaryWeapon");
+
         //攻击检测
         [SerializeField, Header("攻击检测")] protected Transform attackDetectionCenter;
         [SerializeField] protected float attackDetectionRang;
@@ -34,21 +33,15 @@ namespace UGG.Combat
             _audioSource = _characterMovementBase.GetComponentInChildren<AudioSource>();
         }
 
-
-
-
-
         /// <summary>
         /// 攻击动画攻击检测事件
         /// </summary>
         /// <param name="hitName">传递受伤动画名</param>
         protected virtual void OnAnimationAttackEvent(string hitName)
         {
-
             Collider[] attackDetectionTargets = new Collider[4];
 
-            int counts = Physics.OverlapSphereNonAlloc(attackDetectionCenter.position, attackDetectionRang,
-                attackDetectionTargets, enemyLayer);
+            int counts = Physics.OverlapSphereNonAlloc(attackDetectionCenter.position, attackDetectionRang, attackDetectionTargets, enemyLayer);
 
             if (counts > 0)
             {
@@ -56,20 +49,20 @@ namespace UGG.Combat
                 {
                     if (attackDetectionTargets[i].TryGetComponent(out IDamagar damagar))
                     {
-                        damagar.TakeDamager(0,hitName,transform.root.transform);
-                        
+                        damagar.TakeDamager(0, hitName, transform.root.transform);
                     }
                 }
             }
-            PlayWeaponEffect();
+            PlayerWeaponEffect();
         }
 
-        private void PlayWeaponEffect()
+        private void PlayerWeaponEffect()
         {
             if (_animator.CheckAnimationTag("Attack"))
             {
                 GameAssets.Instance.PlaySoundEffect(_audioSource, SoundAssetsType.swordWave);
             }
+
             if (_animator.CheckAnimationTag("GSAttack"))
             {
                 GameAssets.Instance.PlaySoundEffect(_audioSource, SoundAssetsType.hSwordWave);

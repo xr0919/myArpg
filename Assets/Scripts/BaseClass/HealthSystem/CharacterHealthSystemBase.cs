@@ -38,7 +38,6 @@ namespace UGG.Health
             HitAnimaitonMove();
         }
         
-        
         /// <summary>
         /// 设置攻击者
         /// </summary>
@@ -46,7 +45,9 @@ namespace UGG.Health
         public virtual void SetAttacker(Transform attacker)
         {
             if (currentAttacker != attacker || currentAttacker == null)
+            {
                 currentAttacker = attacker;
+            }
         }
 
         protected virtual void HitAnimaitonMove()
@@ -75,14 +76,22 @@ namespace UGG.Health
         public virtual void TakeDamager(float damagar, string hitAnimationName, Transform attacker)
         {
             
-            
         }
 
         #endregion
-        
-        
-        
-        
+
+        #region 外部接口
+
+        /// <summary>
+        /// 弹刀动画
+        /// </summary>
+        /// <param name="animationName"></param>
+        public void FlickWeapon(string animationName)
+        {
+            _animator.Play(animationName, 0, 0f);
+        }
+
+        #endregion
     }
 }
 

@@ -36,7 +36,6 @@ public class TP_CameraController : MonoBehaviour
         public LayerMask collisionLayer;       
 
 
-        
         private void Awake()
         {
             playerCamera = Camera.main.transform;
@@ -56,15 +55,12 @@ public class TP_CameraController : MonoBehaviour
             GetCameraControllerInput();
         }
 
-
-
         private void LateUpdate()
         {
             ControllerCamera();
             CheckCameraOcclusionAndCollision(playerCamera);
             //CameraLockOnTarget();
         }
-
        
         private void ControllerCamera()
         {
@@ -87,8 +83,6 @@ public class TP_CameraController : MonoBehaviour
             pitch -= _playerInput.cameraLook.y * mouseInputSpeed;
             pitch = Mathf.Clamp(pitch, ClmpCameraRang.x, ClmpCameraRang.y);
         }
-
-
        
         private void CheckCameraOcclusionAndCollision(Transform camera)
         {
@@ -108,15 +102,11 @@ public class TP_CameraController : MonoBehaviour
 
         }
 
-       
-
         private void UpdateCursor()
         {
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
         }
-
-
 
         private void CameraLockOnTarget()
         {
@@ -126,7 +116,6 @@ public class TP_CameraController : MonoBehaviour
             Quaternion lookRotation = Quaternion.LookRotation(directionOfTarget.normalized);
             transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, 10f * Time.deltaTime);
         }
-
 
         public void SetLookPlayerTarget(Transform target)
         {

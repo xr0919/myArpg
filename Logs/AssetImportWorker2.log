@@ -1,0 +1,796 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 15724 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/myUnity/arpgArtRes/ARPG
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+1854
+Successfully changed project path to: D:/myUnity/arpgArtRes/ARPG
+D:/myUnity/arpgArtRes/ARPG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [46468] Host "[IP] 172.26.208.1 [Port] 0 [Flags] 2 [Guid] 2945860919 [EditorId] 2945860919 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-9L3D2I7G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [46468] Host "[IP] 172.26.208.1 [Port] 0 [Flags] 2 [Guid] 2945860919 [EditorId] 2945860919 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-9L3D2I7G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 9.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/myUnity/arpgArtRes/ARPG/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.3118
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004433 seconds.
+- Loaded All Assemblies, in  0.301 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.210 seconds
+Domain Reload Profiling: 511ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (112ms)
+		LoadAssemblies (111ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (99ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (211ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (160ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.620 seconds
+Refreshing native plugins compatible for Editor in 3.59 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.664 seconds
+Domain Reload Profiling: 1284ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (431ms)
+		LoadAssemblies (302ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (210ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (162ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (665ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (527ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (369ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 4.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5864 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 105 unused Assets / (1.6 MB). Loaded Objects now: 6317.
+Memory consumption went from 236.9 MB to 235.3 MB.
+Total: 4.189800 ms (FindLiveObjects: 0.421500 ms CreateObjectMapping: 0.213300 ms MarkObjects: 3.119900 ms  DeleteObjects: 0.434200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 937256.449221 seconds.
+  path: Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_FI_Character_09/Body/Sci_FI_Character_09_Body_Albedo_01.tga
+  artifactKey: Guid(231f6e170f8673e4eac00138938dbab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_FI_Character_09/Body/Sci_FI_Character_09_Body_Albedo_01.tga using Guid(231f6e170f8673e4eac00138938dbab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b11b4523d60f221e411333bd50124ec') in 0.094829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_FI_Character_09/Body/Sci_FI_Character_09_Body_Emissive.tga
+  artifactKey: Guid(4d119090ced2e2542ae294c4474d410b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_FI_Character_09/Body/Sci_FI_Character_09_Body_Emissive.tga using Guid(4d119090ced2e2542ae294c4474d410b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f19ad1e71eb23470bc8798c992a9f1') in 0.040133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 172.092599 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Hammers/Textures_Hammers/Hammer1_1_3_AO.png
+  artifactKey: Guid(07853c8d29d600c4b8eb10aabfe10595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Hammers/Textures_Hammers/Hammer1_1_3_AO.png using Guid(07853c8d29d600c4b8eb10aabfe10595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a82bc0b777bc12b4dad1a6b287f59b') in 0.017761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GameAssets/Evil Spirit Katana/Standard Textures/Katana_AmbientOcclusion.tga
+  artifactKey: Guid(caa1f42d3a0016741bad9b297a614d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Evil Spirit Katana/Standard Textures/Katana_AmbientOcclusion.tga using Guid(caa1f42d3a0016741bad9b297a614d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2861f5dfefd3e5799d84024fb2b6ab69') in 0.017796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GameAssets/Evil Spirit Katana/Standard Textures/Katana_SpecularSmoothness.tga
+  artifactKey: Guid(2fdf23ed1f1deb245be40e341d7f1eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Evil Spirit Katana/Standard Textures/Katana_SpecularSmoothness.tga using Guid(2fdf23ed1f1deb245be40e341d7f1eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8aeb201642802dc3b4f1cd378a2f77') in 0.051400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GameAssets/Import/Thermal_Katana/textures/material_emissive_2.png
+  artifactKey: Guid(40fd3b96e8ed068458b73679afe7f2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Import/Thermal_Katana/textures/material_emissive_2.png using Guid(40fd3b96e8ed068458b73679afe7f2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f06b3fdd0bb9bfb5258e36f7972b6e6') in 0.014680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006541 seconds.
+  path: Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif
+  artifactKey: Guid(40da0395b61db4448b98bab66d6b549c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif using Guid(40da0395b61db4448b98bab66d6b549c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab406bad2b4a97c86dfd378a49501046') in 0.016736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Musket/Textures_Musket/Musket1_2_1_Emissive.png
+  artifactKey: Guid(028fcc69d392d004b899f3e293b6f264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Musket/Textures_Musket/Musket1_2_1_Emissive.png using Guid(028fcc69d392d004b899f3e293b6f264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ba7830814cfe5b7ef9ab224cf800bc') in 0.024050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ExampleAssets/Textures/Metal/Metal_Albedo.tif
+  artifactKey: Guid(77583f99dea53b641804bb357092ec83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Metal/Metal_Albedo.tif using Guid(77583f99dea53b641804bb357092ec83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4c21fb221cf9f3142ca792226d0f9e') in 0.019824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.136206 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Musket/Textures_Musket/Musket1_2_Metallic.png
+  artifactKey: Guid(4301e1c72e1780e4184a206ed4ed29cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Musket/Textures_Musket/Musket1_2_Metallic.png using Guid(4301e1c72e1780e4184a206ed4ed29cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb37ff198a70ce4b016cd017d344e27') in 0.017516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/OBS_Albedo.tif
+  artifactKey: Guid(7140a9bc83a12ea49a081dda89216fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Wood/OBS_Albedo.tif using Guid(7140a9bc83a12ea49a081dda89216fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a33799e914dfdf593bc80ab171de9e') in 0.014208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/OBS_Normal.tif
+  artifactKey: Guid(fcce267dfc966b6408dc2ebe0cfb60ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Wood/OBS_Normal.tif using Guid(fcce267dfc966b6408dc2ebe0cfb60ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045a66c4fb66e3e74ac2fd42f1528f6c') in 0.040412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(888916a5e87c05948b1a97b3c0d42556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_MetallicOcculusionSmoothness.tif using Guid(888916a5e87c05948b1a97b3c0d42556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69cc10036e678e06403e65c7dd3d7dc5') in 0.020965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/PaintLabel.tif
+  artifactKey: Guid(e5c37ab0c7b37af4f981195d3caaf4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/PaintLabel.tif using Guid(e5c37ab0c7b37af4f981195d3caaf4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e68aecc33328ec151b9255779fd90c') in 0.013646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Plastic_Normal.tif
+  artifactKey: Guid(e109905c411b0f84e82eaaf2705ece30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/Plastic_Normal.tif using Guid(e109905c411b0f84e82eaaf2705ece30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9676fecaf498af8ab019f29aadd6a5d') in 0.015765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(2e38f7921b7d7b1418ab63c08117ffb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif using Guid(2e38f7921b7d7b1418ab63c08117ffb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4e33cdbf65cd4cb3bfbd4c0d8880dd') in 0.015225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Polearms/Textures_Polearms/Polearm2_2_2_Emissive.png
+  artifactKey: Guid(20d6df663dda64a45b2f5ffdb4f7c699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Polearms/Textures_Polearms/Polearm2_2_2_Emissive.png using Guid(20d6df663dda64a45b2f5ffdb4f7c699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b0740fc8eb0bcdec57e7523377f42a') in 0.017861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Polearms/Textures_Polearms/Polearm2_2_Normal.png
+  artifactKey: Guid(aaa8752e560841340b7804af8f44eec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Polearms/Textures_Polearms/Polearm2_2_Normal.png using Guid(aaa8752e560841340b7804af8f44eec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6060ab6fca0b7053785a7a06206fe69') in 0.023891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Scenes/Playground/ReflectionProbe-2.exr
+  artifactKey: Guid(7e3f1677bc1aead4fb8791998078dcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Scenes/Playground/ReflectionProbe-2.exr using Guid(7e3f1677bc1aead4fb8791998078dcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c083df9d610cc8d6dbd1604f591fa392') in 0.219603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Albedo.tif
+  artifactKey: Guid(dd61af2ec9847eb4d8e17529fa61b143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Albedo.tif using Guid(dd61af2ec9847eb4d8e17529fa61b143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dadf2b2f7f779ce7f6244eb51d9be54') in 0.021084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Polearms/Textures_Polearms/Polearm2_2_Metallic.png
+  artifactKey: Guid(9ae7cb9a5daa1134788e685ebd89da95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Polearms/Textures_Polearms/Polearm2_2_Metallic.png using Guid(9ae7cb9a5daa1134788e685ebd89da95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2898dac040ccf5cefb3ee4701d63dd17') in 0.019453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.090426 seconds.
+  path: Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(6f61f8dd4499250438f1aa39448e860a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_MetallicOcculusionSmoothness.tif using Guid(6f61f8dd4499250438f1aa39448e860a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b50cdf03c406545ec929bc1c719ab5') in 0.020042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003435 seconds.
+  path: Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_FI_Character_09/Details/Sci_FI_Character_09_Details_Albedo_01.tga
+  artifactKey: Guid(47db11bf259e0984d97720c60dd0405c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_FI_Character_09/Details/Sci_FI_Character_09_Details_Albedo_01.tga using Guid(47db11bf259e0984d97720c60dd0405c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48ad785db6a83b2bb67272f8e0a6756') in 0.047716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_FI_Character_09/Details/Sci_FI_Character_09_Details_Albedo_03.tga
+  artifactKey: Guid(cb050ff24db2d4e4a9f812fba7b31d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_FI_Character_09/Details/Sci_FI_Character_09_Details_Albedo_03.tga using Guid(cb050ff24db2d4e4a9f812fba7b31d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f2fdc8b4ff2ebaaa73e63919385a8c') in 0.046496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_FI_Character_09_Weapon/Sci_FI_Character_09_Weapon_Emissive_01.tga
+  artifactKey: Guid(fbef8be3919cebe44a8f101c61310ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_FI_Character_09_Weapon/Sci_FI_Character_09_Weapon_Emissive_01.tga using Guid(fbef8be3919cebe44a8f101c61310ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c573170bdc36ef53d6b86634a1cb7ad') in 0.037000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_FI_Character_09_Weapon/Sci_FI_Character_09_Weapon_Metallic.tga
+  artifactKey: Guid(a347061ded711eb4a8eb55f17fa9c709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_FI_Character_09_Weapon/Sci_FI_Character_09_Weapon_Metallic.tga using Guid(a347061ded711eb4a8eb55f17fa9c709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fac7dd845236509e962f564429f5737') in 0.049693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_FI_Character_09/Details/Sci_FI_Character_09_Details_Metallic.tga
+  artifactKey: Guid(0d8bdcf1ad2e4e24abaf200ec2c4a55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_FI_Character_09/Details/Sci_FI_Character_09_Details_Metallic.tga using Guid(0d8bdcf1ad2e4e24abaf200ec2c4a55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756719175923e2e97f0dd369479c1010') in 0.049473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_FI_Character_09/Details/Sci_FI_Character_09_Details_Normals.tga
+  artifactKey: Guid(afa9ad38593cc024da7be010d0b53851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_FI_Character_09/Details/Sci_FI_Character_09_Details_Normals.tga using Guid(afa9ad38593cc024da7be010d0b53851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43357516ee817b01d2c359d90770a1b4') in 0.041791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_Fi_Guard/Sci_Fi_Character_Guard_Ao.tga
+  artifactKey: Guid(bcb213a89af12a149ae12e0697cabae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_Fi_Guard/Sci_Fi_Character_Guard_Ao.tga using Guid(bcb213a89af12a149ae12e0697cabae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8339dc2589b0260058eb3fe95444c03') in 0.030799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_Fi_Guard_Weapon/Sci_Fi_Guard_Weapon_Ao.tga
+  artifactKey: Guid(5da4b05e5f7f0a1439003901e09a5db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_Fi_Guard_Weapon/Sci_Fi_Guard_Weapon_Ao.tga using Guid(5da4b05e5f7f0a1439003901e09a5db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be60079add75d4d150377a6ffdfddc0') in 0.018706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_Fi_Guard_Weapon/Sci_Fi_Guard_Weapon_Normals.tga
+  artifactKey: Guid(87748bf99a66d7a4e9f0d0fd88b14f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_Fi_Guard_Weapon/Sci_Fi_Guard_Weapon_Normals.tga using Guid(87748bf99a66d7a4e9f0d0fd88b14f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de2e76519fc9d2a3b5fa6efea9839e8') in 0.024548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Shields/Textures_Shields/Shield2_1_2_Metallic.png
+  artifactKey: Guid(3b695d42932bb604fbd870aea1cecb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Shields/Textures_Shields/Shield2_1_2_Metallic.png using Guid(3b695d42932bb604fbd870aea1cecb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac702a79b3b50287befb781497f36f2') in 0.020285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Shields/Textures_Shields/Shield2_1_2_Normal.png
+  artifactKey: Guid(dfc0c273d08487c4ea88fbc870f47091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Shields/Textures_Shields/Shield2_1_2_Normal.png using Guid(dfc0c273d08487c4ea88fbc870f47091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da75feb0d051590c420bd5a0e52447e0') in 0.027114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Shields/Textures_Shields/ShieldHandle2_BaseColor.png
+  artifactKey: Guid(88d2051b04ba0f642af442ddc1fa628c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Shields/Textures_Shields/ShieldHandle2_BaseColor.png using Guid(88d2051b04ba0f642af442ddc1fa628c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c479bf4b6f6b0492f1a29c8a48691f8a') in 0.027461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Shields/Textures_Shields/ShieldHandle_Metallic.png
+  artifactKey: Guid(3a213c4421052664da4a1b6b57c82b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Shields/Textures_Shields/ShieldHandle_Metallic.png using Guid(3a213c4421052664da4a1b6b57c82b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97cd6a5b1f4b52686aecd27d8479ee51') in 0.032977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Shields/Textures_Shields/Shield3_1_1_BaseColor.png
+  artifactKey: Guid(e6046d5430fce0f4e96b22ca72653052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Shields/Textures_Shields/Shield3_1_1_BaseColor.png using Guid(e6046d5430fce0f4e96b22ca72653052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a45e9a96c6ccc4b3bdd3829dd2c0ed0') in 0.024870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Shields/Textures_Shields/Shield2_1_2_AO.png
+  artifactKey: Guid(3072df6ebd145af4c9b01f2f1a706229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Shields/Textures_Shields/Shield2_1_2_AO.png using Guid(3072df6ebd145af4c9b01f2f1a706229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1de3f069113741fe0effb2544a171a') in 0.021311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Shields/Textures_Shields/Shield3_1_1_Metallic.png
+  artifactKey: Guid(e8fd3fe2af7635a469d6bb05974da857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Shields/Textures_Shields/Shield3_1_1_Metallic.png using Guid(e8fd3fe2af7635a469d6bb05974da857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d8349ffcb44bd748d46d9572013d61') in 0.020906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_FI_Character_09_Weapon/Sci_FI_Character_09_Weapon_Albedo_02.tga
+  artifactKey: Guid(5c89839a75163f349a0aacf5c67ec70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_FI_Character_09_Weapon/Sci_FI_Character_09_Weapon_Albedo_02.tga using Guid(5c89839a75163f349a0aacf5c67ec70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16cdf316c6a037f2bbc4e6297026f147') in 0.046217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Shields/Textures_Shields/ShieldHandle8_BaseColor.png
+  artifactKey: Guid(c23a055ccaf9c9b44adea44c4d78e3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Shields/Textures_Shields/ShieldHandle8_BaseColor.png using Guid(c23a055ccaf9c9b44adea44c4d78e3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39d8543f394ac9502bcc568448e41d2') in 0.024407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GameAssets/Evil Spirit Katana/Resources/Particles/Sparks.tga
+  artifactKey: Guid(c68f637c17fe17f46bf49b61c4f34392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Evil Spirit Katana/Resources/Particles/Sparks.tga using Guid(c68f637c17fe17f46bf49b61c4f34392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf5976fa978cdc922173bcc5e2f0475') in 0.014022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Staves/Textures_Staves/Staff2_2_6_S06_Emissive.png
+  artifactKey: Guid(5bfaa9c637c84df45965a0c37a277833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Staves/Textures_Staves/Staff2_2_6_S06_Emissive.png using Guid(5bfaa9c637c84df45965a0c37a277833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe99b31d4a1976fbd2e9c93249273a27') in 0.018674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Staves/Textures_Staves/Staff4_1_1_S01_AO.png
+  artifactKey: Guid(d0b30165cc2adf242b85e6b89034fb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Staves/Textures_Staves/Staff4_1_1_S01_AO.png using Guid(d0b30165cc2adf242b85e6b89034fb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc470f0f513620bbb42b5105f3caa336') in 0.019859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Staves/Textures_Staves/Staff2_2_6_S06_Normal.png
+  artifactKey: Guid(bda2c28c174cc0048bbb2de18a42c5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Staves/Textures_Staves/Staff2_2_6_S06_Normal.png using Guid(bda2c28c174cc0048bbb2de18a42c5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbf5010ab1dadbe4b640c17b0538e08') in 0.023839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_Fi_Guard_Weapon/Sci_Fi_Guard_Weapon_Emissive.tga
+  artifactKey: Guid(6f2643fb32975fc459cb9afb9234d794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_Fi_Guard_Weapon/Sci_Fi_Guard_Weapon_Emissive.tga using Guid(6f2643fb32975fc459cb9afb9234d794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f1954b145ced4722267dfa66c9c39d') in 0.018815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Shields/Textures_Shields/ShieldHandle_Normal.png
+  artifactKey: Guid(d395efae029724c4488c07b9042b475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Shields/Textures_Shields/ShieldHandle_Normal.png using Guid(d395efae029724c4488c07b9042b475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee670613acfd6d85f47dc649729a3ec2') in 0.032661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Staves/Textures_Staves/Staff5_1_1_S01_AO.png
+  artifactKey: Guid(002220073b907ee47b40b49a6d7eebc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Staves/Textures_Staves/Staff5_1_1_S01_AO.png using Guid(002220073b907ee47b40b49a6d7eebc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4b53118ff6111075c1d72415065746') in 0.022849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Swords/Textures_Swords/Sword1_1_3_BaseColor.png
+  artifactKey: Guid(04fb03b3e4c0fdc4c9a5c77fec04b915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Swords/Textures_Swords/Sword1_1_3_BaseColor.png using Guid(04fb03b3e4c0fdc4c9a5c77fec04b915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85dcd2ac6f36403b612b4a415a830ab') in 0.018338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Staves/Textures_Staves/Staff4_1_1_S01_Normal.png
+  artifactKey: Guid(335da5be7bbcd614aa3b350e2ebe8e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Staves/Textures_Staves/Staff4_1_1_S01_Normal.png using Guid(335da5be7bbcd614aa3b350e2ebe8e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1351423d28d962ff3f212062f12c2a') in 0.021380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Swords/Textures_Swords/Sword2_3_3_AO.png
+  artifactKey: Guid(d7aa557b8af48ce4b847590278e88c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Swords/Textures_Swords/Sword2_3_3_AO.png using Guid(d7aa557b8af48ce4b847590278e88c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf7357ce9b906c41dae60c4279f4084') in 0.021151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Staves/Textures_Staves/Staff4_1_1_S01_Metallic.png
+  artifactKey: Guid(f019ed62f60a16f4781dc6643371da1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Staves/Textures_Staves/Staff4_1_1_S01_Metallic.png using Guid(f019ed62f60a16f4781dc6643371da1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0f0c9dc5fc08fd00a36009eb122912') in 0.017761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Swords/Textures_Swords/Sword2_3_3_Normal.png
+  artifactKey: Guid(7ea7943f90850c2408ed545b413baac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Swords/Textures_Swords/Sword2_3_3_Normal.png using Guid(7ea7943f90850c2408ed545b413baac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f02be85414e42b1c26b9f6cd816f275') in 0.035813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Staves/Textures_Staves/Staff5_1_1_S01_Metallic.png
+  artifactKey: Guid(32ea84c19515c0b4888432dec8b85a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Staves/Textures_Staves/Staff5_1_1_S01_Metallic.png using Guid(32ea84c19515c0b4888432dec8b85a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90656f3d0823b9d6444ead6f3018c27a') in 0.023754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Swords/Textures_Swords/Sword1_1_3_Normal.png
+  artifactKey: Guid(57086f2f8e1910b4eb77d99f7ddbf976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Swords/Textures_Swords/Sword1_1_3_Normal.png using Guid(57086f2f8e1910b4eb77d99f7ddbf976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb2bc051f7b4043824c88cac2966383') in 0.021645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Staves/Textures_Staves/Staff5_1_1_S01_Normal.png
+  artifactKey: Guid(91ed784b9ee0ed643bf95f8f52a2c9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Staves/Textures_Staves/Staff5_1_1_S01_Normal.png using Guid(91ed784b9ee0ed643bf95f8f52a2c9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad74a39dda8062a732c1885c579ddc0') in 0.023155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Swords/Textures_Swords/Sword1_1_3_Metallic.png
+  artifactKey: Guid(52b328b8cb854f846822e7826b748ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Swords/Textures_Swords/Sword1_1_3_Metallic.png using Guid(52b328b8cb854f846822e7826b748ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8d93c53906d3fdbdd48f2c38dff1f9') in 0.017922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Scythes/Textures_Scythes/Scythe1_3_Normal.png
+  artifactKey: Guid(df53e4ead67acd74ab14363eab582672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Scythes/Textures_Scythes/Scythe1_3_Normal.png using Guid(df53e4ead67acd74ab14363eab582672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052528571123e94d077fde8fa68e6592') in 0.032065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Swords/Textures_Swords/Sword3_1_3_Normal.png
+  artifactKey: Guid(a91a40f9cc2ab714a819f9869fff6fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Swords/Textures_Swords/Sword3_1_3_Normal.png using Guid(a91a40f9cc2ab714a819f9869fff6fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd82323bb7bb52a71267836544cba189') in 0.021136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/WoodenSwordsVol01/Textures/T_BigSword_A.TGA
+  artifactKey: Guid(1f08761a085d35a4ca1b8bd2fabf1ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodenSwordsVol01/Textures/T_BigSword_A.TGA using Guid(1f08761a085d35a4ca1b8bd2fabf1ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdda0dfd3c217a7f036249399afce63') in 0.022055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/WoodenSwordsVol01/Textures/T_Dagger_N.TGA
+  artifactKey: Guid(72e35cfbc0da18940a4305234da87ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodenSwordsVol01/Textures/T_Dagger_N.TGA using Guid(72e35cfbc0da18940a4305234da87ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c258da7a2fe8fc65062ab483cee95670') in 0.021002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Circle_Bevel_Base.png
+  artifactKey: Guid(b74c31d447d2f5d41a61081bdf5e7126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/UI/UI_Circle_Bevel_Base.png using Guid(b74c31d447d2f5d41a61081bdf5e7126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3524ebc7fcc501b2c9e3396f7ba601e0') in 0.033619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TutorialInfo/Icons/UniversalIcon.png
+  artifactKey: Guid(7801804018a7dcf42abb827444e18660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Icons/UniversalIcon.png using Guid(7801804018a7dcf42abb827444e18660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221fc168d277f2dd6314be393b933335') in 0.015090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Sprint.png
+  artifactKey: Guid(b0fa70abd2a79904cb00b175dfd8ec7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Sprint.png using Guid(b0fa70abd2a79904cb00b175dfd8ec7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3f5b5d1529d89bf1bb837ccfb65374') in 0.021310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/WoodenSwordsVol01/Textures/T_RomanSword_N.TGA
+  artifactKey: Guid(78e6d7969af91054ea0348610688fed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WoodenSwordsVol01/Textures/T_RomanSword_N.TGA using Guid(78e6d7969af91054ea0348610688fed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d54ef9a0505f19b0847e9d6df9f679') in 0.023860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Swords/Textures_Swords/Sword5_3_3_Normal.png
+  artifactKey: Guid(423b5525715704942916197a19e4bdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Swords/Textures_Swords/Sword5_3_3_Normal.png using Guid(423b5525715704942916197a19e4bdf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c84b804e9ab53809e2a253864ebd5d') in 0.022194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Swords/Textures_Swords/Sword5_3_3_AO.png
+  artifactKey: Guid(f5a44a9dbfaf8b941a8d4fed7a64524c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Swords/Textures_Swords/Sword5_3_3_AO.png using Guid(f5a44a9dbfaf8b941a8d4fed7a64524c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52adc6f1a3116122bb7e41a66771884') in 0.019229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Jump.png
+  artifactKey: Guid(751aa1b6637101946b2fdbb7aa27d6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Jump.png using Guid(751aa1b6637101946b2fdbb7aa27d6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2880bde1dac27080732abce2c9d2302') in 0.023976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_FI_Character_09_Weapon/Sci_FI_Character_09_Weapon_Albedo_01.tga
+  artifactKey: Guid(7e5f58f56369f7e47ba829a8847f473b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameAssets/Sci_Fi_Character_09/Textures/Sci_FI_Character_09_Weapon/Sci_FI_Character_09_Weapon_Albedo_01.tga using Guid(7e5f58f56369f7e47ba829a8847f473b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76b6e83a7b29199b46d1892fc75249e') in 0.059225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 862.962265 seconds.
+  path: Assets/MyAssets/Shaders/Cartoon.shadergraph
+  artifactKey: Guid(5ccff5a4140a58544a6eb5b7a8fd6b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssets/Shaders/Cartoon.shadergraph using Guid(5ccff5a4140a58544a6eb5b7a8fd6b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3c754a96d13c469c70570a9312654d') in 0.519317 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.109329 seconds.
+  path: Assets/MyAssets/Shaders/Cartoon 1.shadergraph
+  artifactKey: Guid(8d166d91d9d3eaf4abc76c38bcc87030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssets/Shaders/Cartoon 1.shadergraph using Guid(8d166d91d9d3eaf4abc76c38bcc87030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17a5c8f51458073e791752a0848f3e8') in 0.391302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.638698 seconds.
+  path: Assets/MyAssets/Shaders/Cartoon2.shadergraph
+  artifactKey: Guid(8d166d91d9d3eaf4abc76c38bcc87030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssets/Shaders/Cartoon2.shadergraph using Guid(8d166d91d9d3eaf4abc76c38bcc87030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ad23ab98bae1a44c6fc2166f8dfc0d') in 0.405334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 208.697366 seconds.
+  path: Assets/Blink/Art/Weapons/Stylized/Swords/Materials_Swords/Sword3_1_3.mat
+  artifactKey: Guid(3d7fe637cc2cf364ba4fe744cd039f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Weapons/Stylized/Swords/Materials_Swords/Sword3_1_3.mat using Guid(3d7fe637cc2cf364ba4fe744cd039f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348de1882a8cde63bad9a3606fa20b61') in 0.057769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sword Two-Hander/Materials/Sword_Blue.mat
+  artifactKey: Guid(f951a05f191e43948a2b49ac57156211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword Two-Hander/Materials/Sword_Blue.mat using Guid(f951a05f191e43948a2b49ac57156211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a62124f35324f7359c975e44ea07006') in 0.070078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sword Two-Hander/Materials/Sword_Yellow.mat
+  artifactKey: Guid(4eabf2937c4828240af19cafa3fdfae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword Two-Hander/Materials/Sword_Yellow.mat using Guid(4eabf2937c4828240af19cafa3fdfae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d5fdc4ed03dab41d8a5a6f4c9e6cd9') in 0.029471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sword Two-Hander/Materials/Sword_Green.mat
+  artifactKey: Guid(3bde52da910315740a0b36d9b2b56973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword Two-Hander/Materials/Sword_Green.mat using Guid(3bde52da910315740a0b36d9b2b56973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21ede9024f909b4e1058495101cf131') in 0.040078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sword Two-Hander/Materials/Sword_Purple.mat
+  artifactKey: Guid(efb2c451616b4794a8d1346952212a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword Two-Hander/Materials/Sword_Purple.mat using Guid(efb2c451616b4794a8d1346952212a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322cd2c25e7c81f31da71234a2734596') in 0.032607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
